@@ -1,3 +1,7 @@
-# practice.py
+# Apply Python Practice
 
-Many kinds of small beginner exercises using what I've learned on DataCamp.
+I'm learning python on DataCamp!
+
+Here are several exercises applying what I've learned about python.
+
+Happy Coding!!
