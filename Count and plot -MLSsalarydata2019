@@ -1,0 +1,36 @@
+
+Data source: MLS Players Association. 
+  （http://s3.amazonaws.com/mlspa/June-1-2019-Salaries-Alphabetical-Web.pdf?mtime=20190612135339）
+  
+  #count numbers of players in each club and each position
+  #plot
+
+import matplotlib.pyplot as plt
+import pandas as pd
+
+MLS2019_df = pd.read_csv('MLS_s_2019.csv')
+def MLS2019(df,*args):
+  count={}
+  for col_name in args:
+    col = df[col_names]
+    for entry in col:
+      if entry in count.keys():
+        count[entry] += 1
+      else:
+        count[entey] = 1
+  return count
+
+club = MLS2019(MLS2019_df, 'Company')
+position = MLS2019(MLS2019_df, 'Position(s)')
+
+clubs = [[k,v] for k,v in club.items()]
+x,y = zip(*clubs)
+plt.polt(x,y)
+plt.show()
+
+positions = [[k,v] for k,v in position.items()]
+x1,y1 = zip(*positions)
+plt.plot(x1,y1)
+plt.show()
+
+##end
