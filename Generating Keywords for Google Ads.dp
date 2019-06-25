@@ -1,3 +1,4 @@
+
 from pprint import pprint
 import pandas as pd
 
@@ -26,3 +27,5 @@ keywords_df_final = keywords_df.append(keywords_phrase)
 keywords_df_final.to_csv('keywords.csv',index=False)
 summary = keywords_df_final.groupby(['Ad Group', 'Criterion Type'])['Keyword'].count()
 print(summary)
+
+***Completed on datacamp originally***
