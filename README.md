@@ -10,7 +10,6 @@ _Table of Content_
 > - [04. Draw_images](draw_images.py)
 > - [05. Explore a doge image](doge_image!.py)
 > - [06. Print specific items](Print_specific_items.py)
-
-
+> - [07. Game-Guess a number](Game_im_thinking_about_a_number.py)
 
 **Happy Coding!!**
