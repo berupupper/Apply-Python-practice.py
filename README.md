@@ -9,5 +9,8 @@ _Table of Content_
 > - [03. pd.merge()](pd.merge_left_right_outer_inner.py)
 > - [04. Draw_images](draw_images.py)
 > - [05. Explore a doge image](doge_image!.py)
+> - [06. Print specific items](Print_specific_items.py)
+
+
 
 **Happy Coding!!**
